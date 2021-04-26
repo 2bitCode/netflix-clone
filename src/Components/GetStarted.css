@@ -1,0 +1,85 @@
+.getstarted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 4vw;
+    margin-top: 2vw;
+}
+
+.getstarted > p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1vw;
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    width: 50%;
+    border: none;
+    border-radius: 0;
+}
+
+.inputs > #email {
+    padding: 1.5em;
+    width: 70%;
+    font-size: 1.1rem;
+}
+
+ .inputs > #btn-submit {
+     width: 30%;
+     background-color: #e50914;
+     color: white;
+     border: none;
+     font-size: 1.5rem;
+     cursor: pointer;
+ }
+
+ @media only screen and (max-width: 1130px) {
+     .inputs {
+         flex-direction: column;
+         align-items: center;
+     }
+     .inputs > #email {
+         width: 100%;
+     }
+     .inputs > #btn-submit {
+         padding: 5px;
+         margin-top: 1em;
+         height: auto;
+         width: auto;
+     }
+ }
+
+ @media only screen and (max-width: 778px) {
+     .getstarted {
+         width: 100%;
+     }
+    .getstarted > p {
+        font-size: 1.1rem;
+    }
+    .inputs > #email {
+        padding: 1em;
+
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .getstarted > p {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 1.4vw;
+        display: inline-block;
+        text-align: center;
+    }
+    .inputs {
+        width: 100%;
+    }
+    .inputs > #email {
+        width: 80%;
+    }
+    .inputs > #btn-submit {
+        margin-top: 0.5em;
+    }
+}

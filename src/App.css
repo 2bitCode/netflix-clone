@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+}
+
+/* FIRST HALF PART */
+
+.upper {
+  background: rgb(120, 120, 120)
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/92bb3a0b-7e91-40a0-b27b-f2c3ac9ef6e4/3048ba82-cf42-4584-a197-6fa3085b5f1a/NP-en-20210322-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.7em solid #222222;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: 8%;
+  padding: 15px 5px 15px 25px;
+}
+
+.btn-link {
+  width: 6%;
+}
+
+.btn-signUp {
+  width: 100%;
+  height: 3vw;
+  background-color: #e50914;
+  border-radius: 12%;
+  border: none;
+  color: white;
+  margin-right: 5vw;
+  /* flex-basis: auto; */
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1330px) {
+  .btn-link {
+    width: 7%;
+  }
+
+  .btn-signUp {
+    width: 100%;
+    height: 4vw;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .logo {
+    width: 12%;
+  }
+
+  .btn-link {
+    width: 8%;
+  }
+
+  .btn-signUp {
+    width: 100%;
+    height: 5.5vw;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12vw;
+  margin-bottom: 2vw;
+}
+
+.intro > h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#short {
+  color: white;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+span {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+@media only screen and (max-width: 750px) {
+  .intro > h1 > p {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 572px) {
+  .logo {
+    width: 18%;
+  }
+
+  .btn-link {
+    width: auto;
+  }
+
+  .btn-signUp {
+    width: 100%;
+    height: 6vw;
+  }
+
+  .intro {
+    margin-top: 20vw;
+  }
+
+  .intro > h1 {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .intro > h1 > #short {
+    font-size: 2.5rem;
+  }
+
+  .intro > span {
+    font-size: 1.3rem;
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+/* FREQUENTLY ASKED QUESTIONS */
+
+.lastPart {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.7em solid #222222;
+}
+
+.lastPart > h1 {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 572px) {
+  .lastPart > h1 {
+    font-size: 2.2rem;
+  }
+}

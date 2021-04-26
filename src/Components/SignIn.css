@@ -1,0 +1,60 @@
+.signin {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.7);
+  width: 15%;
+  margin: 3vw auto 0 auto;
+  padding: 50px 50px 90px 50px;
+}
+
+.enter {
+  margin: 18px 0;
+  padding: 18px;
+}
+
+#btn-signIn {
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 1.1rem;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #a79090;
+}
+
+.checkbox > a {
+  color: #a79090;
+  text-decoration: none;
+}
+
+.goBack {
+  color: #a79090;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: transform 400ms;
+}
+
+.goBack:hover {
+  transform: scale(1.07);
+}
+
+@media only screen and (max-width: 1100px) {
+  .signin {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .signin {
+    width: auto;
+  }
+}

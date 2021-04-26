@@ -1,0 +1,7 @@
+.login {
+  background: rgb(120, 120, 120)
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/92bb3a0b-7e91-40a0-b27b-f2c3ac9ef6e4/3048ba82-cf42-4584-a197-6fa3085b5f1a/NP-en-20210322-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  object-fit: contain;
+  background-size: cover;
+  background-blend-mode: darken;
+}
